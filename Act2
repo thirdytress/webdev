@@ -3,148 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>Greenville Residences</title>
+    <style>
+        * {
+            margin: 5px;
+            padding: 5px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
 
-        
-        <header>
-            <h1>
-                Camella House
-            </h1>
-            <p>Welcome To our  Website</p>
-        </header>
-        <nav>
-            <ul>
-                <li><a href="https://www.camella.com.ph/#">EXPLORE HOME</a></li>
-                <li><a href="https://www.camella.com.ph/discover-camella//">ABOUT</a></li>
-                <li><a href="https://www.camella.com.ph/home-sellers-guide/">Seller's Guide</a></li>
-                <li><a href="https://www.camella.com.ph/inquiries/">CONTACT</a></li>
-            </ul>
-        </nav>
-        <section>
-            <h2>About US </h2>
-            <p> Your Dream life awaits
-                in camella
-                Standing the test of time, Camella has burgeoned from an innovative real estate developer to a formidable player in the industry.
-                For more than four decades, we have reached farther across the country than any other property developer, constructing homes and creating tomorrows in places our homeowners hope to live in.
-            </p>
-        </section>
-        <article>
-            <h2>Latest News</h2>
-            <p>Vista Land, the Philippines’ leading integrated property developer, remains committed to turning the dream of homeownership into a reality for countless Filipinos across the archipelago through MOVE—Making Ownership at Vista Land Easy. This initiative streamlines the purchase of ready-for-occupancy (RFO) house-and-lot properties across 47 provinces and 149 cities and municipalities nationwide.</p>
-        </article>
-        <aside>
-            <h2>Relate Links</h2>
-                <ul>
-                    <li><a href="https://www.camella.com.ph/articles/news/#">Costumer Support</a></li>
-                    <li><a href="https://appointments.camella.com.ph/">Appointments</a></li>
-                    <li><a href="#">Link-3</a></li>
-                </ul>
-            
-        </aside>
-        
-        
-        
-        
-        <footer>
-            <p>&copy;2025 Sample Website. All rigth reserved</p>
-        </footer>
-        
-        
-        
-        </body>
-        </html>
-        <style>
-            *{
-                margin: 5px;
-                padding: 5px;
-                font-family: sans-serif;
-            }
-        
-            
-            
-        header{
-            width: auto;
-            height: auto;
-            background-color: #2A9134;
-            padding: 1px;
+        header {
+            background-color: #264653;
+            color: #fff;
             text-align: center;
-            border-radius: 21px;
-            box-sizing: border-box;
-            margin: 5px;
+            padding: 15px;
+            border-radius: 20px;
         }
-        
-        nav{
-            width: auto;
-            height: auto;
-            background-color: #3FA34D;
+
+        nav {
+            background-color: #2A9D8F;
+            text-align: center;
             padding: 10px;
-            text-align: center;
-            border-radius: 21px;
-            box-sizing: border-box;
-            margin: 5px;
+            border-radius: 20px;
         }
-        nav ul{
+
+        nav ul {
             list-style-type: none;
             padding: 0;
         }
-        nav ul li{
+
+        nav ul li {
             display: inline;
-            margin-right: 10px;
+            margin-right: 15px;
         }
-        nav ul li a{
+
+        nav ul li a {
             text-decoration: none;
-            color: #000;
-            padding: 5px 5px;
+            color: white;
+            padding: 8px 12px;
             border-radius: 5px;
+            transition: background-color 0.3s;
         }
-        nav ul li a:hover{
-            background-color: #A6CFD5;
+
+        nav ul li a:hover {
+            background-color: #E9C46A;
             color: #000;
         }
-        nav ul li a:active{
-            transition: all 0.4s ease-in-out;
-            background-color: #A6CFD5;
-            color: #000;
-        }
-        
-        
-        section{
-            width: auto;
-            height: auto;
-            background-color: #5BBA6F;
-            padding: 10px;
-            text-align: center;
-            border-radius: 21px;
-            box-sizing: border-box;
-            margin: 5px;
-           
-        }
-        
-        article{
-            background-color: #B2FFA8;
-            padding: 10px;
-            text-align: center;
-            border-radius: 21px;
-            box-sizing: border-box;
-            margin: 5px;
-        }
-        
-        aside{
-            background-color: #50723C;
-            padding: 10px;
-            border-radius: 21px;
-            margin: 5px;
-            box-sizing: border-box;
-        }
-        footer{
-            font-family: 'Times New Roman', Times, serif;
+
+        section {
+            background-color: #F4A261;
+            padding: 15px;
+            border-radius: 20px;
             text-align: center;
         }
-        
-            </style>
+
+        article {
+            background-color: #E76F51;
+            padding: 15px;
+            border-radius: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        aside {
+            background-color: #2A9D8F;
+            padding: 15px;
+            border-radius: 20px;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside ul li {
+            margin: 5px 0;
+        }
+
+        aside ul li a {
+            color: #fff;
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            color: #444;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Greenville Residences</h1>
+        <p>Bringing You Closer to Home</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Find Your Home</a></li>
+            <li><a href="#">Who We Are</a></li>
+            <li><a href="#">Buyer's Toolkit</a></li>
+            <li><a href="#">Get in Touch</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>About Greenville</h2>
+        <p>At Greenville Residences, we are passionate about providing beautiful, lasting homes across the country. 
+           With over 40 years of experience, our team is committed to building sustainable communities where your dreams take root.</p>
+    </section>
+
+    <article>
+        <h2>Community Highlights</h2>
+        <p>Greenville continues to expand its reach with innovative housing solutions and streamlined ownership processes. 
+           Our latest initiative, Project Haven, simplifies your path to a move-in-ready residence in over 150 localities nationwide.</p>
+    </article>
+
+    <aside>
+        <h2>Helpful Resources</h2>
+        <ul>
+            <li><a href="#">Customer Assistance</a></li>
+            <li><a href="#">Schedule a Visit</a></li>
+            <li><a href="#">Neighborhood Insights</a></li>
+        </ul>
+    </aside>
+
+    <footer>
+        <p>&copy; 2025 Greenville Residences. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
-
-    
